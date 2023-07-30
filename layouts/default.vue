@@ -1,0 +1,16 @@
+<!--POR TER O NOME DEFAULT, ELE VAI SER USADO EM TODAS AS PAGINAS DO SITE-->
+<!--LAYOUTS VAI SERVIR COMO HEADERS-->
+<!--LEMBRA DE COLOCAR O DIRETORIO EXPLICITAMENTE layouts-->
+<!--ESQUECI DE COLOCAR NO PLURAL E ME LASQUEI-->
+<!--QUANDO CRIAR SEMPR EUMA  PAGINA, RECARREGA O SERVIDOR VIUI-->
+<template>
+<!--  NESSA NAV  FICARIA TODAS AS ROTAS DO HEADER-->
+  <nav>
+    <NuxtLink to="/">Home</NuxtLink>
+    <NuxtLink to="/about/about">About</NuxtLink>
+  </nav>
+  <main>
+<!--    ESSE SLOT E TODO O CONTEUDO QUE VAI SER MOSTRADO DINAMICAMENTE-->
+    <slot />
+  </main>
+</template>
